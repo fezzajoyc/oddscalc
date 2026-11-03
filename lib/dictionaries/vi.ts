@@ -19,6 +19,10 @@ const vi = {
     heroSub:
       "Oddscalc là bộ máy tính xác suất cho thấy cách tính: tổng xúc xắc bằng đếm tổ hợp, đồng xu bằng công thức nhị thức, số trúng bằng phân bố siêu bội, nghịch lý ngày sinh bằng tích lặp. Mỗi số đi kèm phân số chính xác của nó — không mô phỏng, không làm tròn, không gửi đi đâu.",
     browseAll: "Xem tất cả công cụ",
+    pinned: "Đã ghim",
+    pin: "Ghim lên đầu",
+    unpin: "Bỏ ghim",
+    popular: "Phổ biến ngay bây giờ",
     categoriesTitle: "Danh mục",
     featuredTitle: "Công cụ phổ biến",
     trustLocal: "File luôn ở lại thiết bị của bạn",
@@ -77,6 +81,8 @@ const vi = {
     howTo: "Cách sử dụng",
     faq: "Câu hỏi thường gặp",
     related: "Công cụ liên quan",
+    nextStep: "Bước tiếp theo",
+    copyLink: "Sao chép liên kết",
     privacyNote:
       "Công cụ này chạy hoàn toàn trong trình duyệt của bạn. Dữ liệu không bao giờ rời khỏi thiết bị — không được tải lên bất kỳ máy chủ nào.",
     inCategory: "Xem thêm trong {category}",

@@ -19,6 +19,10 @@ const ja: Dictionary = {
     heroSub:
       "Oddscalc は計算過程を見せる確率計算ツール集です。サイコロの合計は組合せの数え上げ、コイン投げは二項分布、宝くじは超幾何分布、誕生日のパラドックスは反復乗積で。どの数字にも正確な分数が付きます——シミュレーションも丸めも送信もなし。",
     browseAll: "すべてのツールを見る",
+    pinned: "ピン留め",
+    pin: "トップに固定",
+    unpin: "固定を解除",
+    popular: "人気のツール",
     categoriesTitle: "カテゴリー",
     featuredTitle: "人気のツール",
     trustLocal: "ファイルは端末内に留存",
@@ -74,6 +78,8 @@ const ja: Dictionary = {
     howTo: "使い方",
     faq: "よくある質問",
     related: "関連ツール",
+    nextStep: "次のステップ",
+    copyLink: "リンクをコピー",
     privacyNote:
       "このツールは完全にブラウザ内で動作します。データは端末から出ず、サーバーへアップロードされることはありません。",
     inCategory: "{category}のその他のツール",

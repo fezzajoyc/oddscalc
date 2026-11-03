@@ -21,6 +21,10 @@ const ko: Dictionary = {
     heroSub:
       "Oddscalc는 계산 과정을 보여주는 확률 계산기 모음입니다. 주사위 합은 조합 세기로, 동전은 이항분포로, 로또는 초기하분포로, 생일 역설은 반복 곱으로 계산합니다. 모든 숫자에는 정확한 분수가 함께 나옵니다 — 시뮬레이션도, 반올림도, 전송도 없습니다.",
     browseAll: "전체 도구 보기",
+    pinned: "고정됨",
+    pin: "상단에 고정",
+    unpin: "고정 해제",
+    popular: "인기 도구",
     categoriesTitle: "카테고리",
     featuredTitle: "인기 도구",
     trustLocal: "파일은 기기에만 보관됩니다",
@@ -79,6 +83,8 @@ const ko: Dictionary = {
     howTo: "사용 방법",
     faq: "자주 묻는 질문",
     related: "관련 도구",
+    nextStep: "다음 단계",
+    copyLink: "링크 복사",
     privacyNote:
       "이 도구는 전부 브라우저 안에서 실행됩니다. 데이터는 기기를 떠나지 않으며 어떤 서버로도 업로드되지 않습니다.",
     inCategory: "{category}의 다른 도구",

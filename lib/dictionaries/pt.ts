@@ -19,6 +19,10 @@ const pt: Dictionary = {
     heroSub:
       "Oddscalc é um conjunto de calculadoras de probabilidade que mostram o cálculo: somas de dados por contagem combinatória, moedas pela binomial, loteria pela hipergeométrica e o paradoxo do aniversário por produto iterativo. Cada número vem com a fração exata — sem simulação, sem arredondamento, nada enviado.",
     browseAll: "Ver todas as ferramentas",
+    pinned: "Fixados",
+    pin: "Fixar no topo",
+    unpin: "Remover dos fixados",
+    popular: "Populares agora",
     categoriesTitle: "Categorias",
     featuredTitle: "Ferramentas populares",
     trustLocal: "Seus arquivos ficam no seu dispositivo",
@@ -74,6 +78,8 @@ const pt: Dictionary = {
     howTo: "Como usar",
     faq: "Perguntas frequentes",
     related: "Ferramentas relacionadas",
+    nextStep: "Próximos passos",
+    copyLink: "Copiar link",
     privacyNote:
       "Esta ferramenta roda inteiramente no seu navegador. Seus dados nunca saem do seu dispositivo e não são enviados a nenhum servidor.",
     inCategory: "Mais em {category}",

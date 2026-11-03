@@ -19,6 +19,10 @@ const de = {
     heroSub:
       "Oddscalc ist eine Reihe von Wahrscheinlichkeitsrechnern, die ihren Rechenweg zeigen: Würfelsummen durch kombinatorisches Zählen, Münzwürfe über die Binomialformel, Lotto über die hypergeometrische Verteilung und das Geburtstagsparadoxon als iteratives Produkt. Jede Zahl kommt mit ihrem exakten Bruch — keine Simulation, kein Runden, nichts wird gesendet.",
     browseAll: "Alle Tools ansehen",
+    pinned: "Angepinnt",
+    pin: "Oben anpinnen",
+    unpin: "Nicht mehr anpinnen",
+    popular: "Gerade beliebt",
     categoriesTitle: "Kategorien",
     featuredTitle: "Beliebte Tools",
     trustLocal: "Dateien bleiben auf Ihrem Gerät",
@@ -77,6 +81,8 @@ const de = {
     howTo: "So verwenden Sie es",
     faq: "Häufige Fragen",
     related: "Verwandte Tools",
+    nextStep: "Nächste Schritte",
+    copyLink: "Link kopieren",
     privacyNote:
       "Dieses Tool läuft vollständig in Ihrem Browser. Ihre Daten verlassen Ihr Gerät nie — sie werden auf keinen Server hochgeladen.",
     inCategory: "Mehr in {category}",

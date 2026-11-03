@@ -18,6 +18,10 @@ const tr = {
     heroSub:
       "Oddscalc, hesabını gösteren bir olasılık hesaplayıcıları setidir: zar toplamları kombinatorik sayımla, yazı tura binom formülüyle, piyango hipergeometrik dağılımla, doğum günü paradoksu iteratif çarpımla. Her sayı tam kesriyle gelir — simülasyon yok, yuvarlama yok, hiçbir şey gönderilmez.",
     browseAll: "Tüm araçlara göz at",
+    pinned: "Sabitlenen",
+    pin: "Üste sabitle",
+    unpin: "Sabitlemeyi kaldır",
+    popular: "Şu anda popüler",
     categoriesTitle: "Kategoriler",
     featuredTitle: "Popüler araçlar",
     trustLocal: "Dosyalar cihazında kalır",
@@ -76,6 +80,8 @@ const tr = {
     howTo: "Nasıl kullanılır",
     faq: "Sık sorulan sorular",
     related: "İlgili araçlar",
+    nextStep: "Sonraki adımlar",
+    copyLink: "Bağlantıyı kopyala",
     privacyNote:
       "Bu araç tamamen tarayıcında çalışır. Verilerin asla cihazından çıkmaz — hiçbir sunucuya yüklenmez.",
     inCategory: "{category} kategorisinde daha fazlası",

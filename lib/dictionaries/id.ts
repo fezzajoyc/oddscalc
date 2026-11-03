@@ -19,6 +19,10 @@ const id = {
     heroSub:
       "Oddscalc adalah kumpulan kalkulator probabilitas yang menunjukkan cara menghitungnya: jumlah dadu lewat pencacahan kombinatorik, koin lewat rumus binomial, lotere lewat distribusi hipergeometrik, dan paradoks ulang tahun lewat produk iteratif. Setiap angka datang dengan pecahan eksaknya — tanpa simulasi, tanpa pembulatan, tanpa mengirim apa pun.",
     browseAll: "Lihat semua alat",
+    pinned: "Disematkan",
+    pin: "Sematkan di atas",
+    unpin: "Lepas sematan",
+    popular: "Populer saat ini",
     categoriesTitle: "Kategori",
     featuredTitle: "Alat populer",
     trustLocal: "File tetap di perangkat Anda",
@@ -77,6 +81,8 @@ const id = {
     howTo: "Cara pakai",
     faq: "Pertanyaan yang sering diajukan",
     related: "Alat terkait",
+    nextStep: "Langkah berikutnya",
+    copyLink: "Salin tautan",
     privacyNote:
       "Alat ini berjalan sepenuhnya di browser Anda. Data Anda tidak pernah meninggalkan perangkat — tidak diunggah ke server mana pun.",
     inCategory: "Lainnya di {category}",

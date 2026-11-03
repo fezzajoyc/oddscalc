@@ -19,6 +19,10 @@ const it = {
     heroSub:
       "Oddscalc è un insieme di calcolatori di probabilità che mostrano il procedimento: somme dei dadi per conteggio combinatorio, monete con la binomiale, lotteria con l'ipergeometrica e paradosso del compleanno con il prodotto iterativo. Ogni numero arriva con la sua frazione esatta — niente simulazioni, niente arrotondamenti, niente invii.",
     browseAll: "Sfoglia tutti gli strumenti",
+    pinned: "Fissati",
+    pin: "Fissa in alto",
+    unpin: "Rimuovi dai fissati",
+    popular: "Popolari adesso",
     categoriesTitle: "Categorie",
     featuredTitle: "Strumenti popolari",
     trustLocal: "I file restano sul tuo dispositivo",
@@ -77,6 +81,8 @@ const it = {
     howTo: "Come si usa",
     faq: "Domande frequenti",
     related: "Strumenti correlati",
+    nextStep: "Passaggi successivi",
+    copyLink: "Copia link",
     privacyNote:
       "Questo strumento gira interamente nel tuo browser. I tuoi dati non lasciano mai il dispositivo: non vengono caricati su nessun server.",
     inCategory: "Altri in {category}",
