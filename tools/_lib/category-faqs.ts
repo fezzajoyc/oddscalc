@@ -10,74 +10,29 @@ type Faq = { q: string; a: string };
 
 const GLOBAL: Partial<Record<Locale, Faq[]>> = {
   en: [
-    {
-      q: "Is this tool free to use?",
-      a: "Yes, completely free — no signup, no subscription, no daily limits, and no watermarks on the output.",
-    },
-    {
-      q: "Does my data leave my device?",
-      a: "No. The tool runs entirely in your browser with JavaScript. Nothing you type or upload is sent to a server, so it even works offline once the page has loaded.",
-    },
-    {
-      q: "Which browsers does it work in?",
-      a: "Any modern browser — Chrome, Firefox, Safari and Edge on desktop and mobile. No plugins or extensions are needed.",
-    },
+    { q: "What makes OddsCalc different from other tool sites?", a: "OddsCalc focuses on probability and odds and does it with zero friction: no accounts, no uploads, no ads in your way — every tool runs entirely on your device." },
+    { q: "Is OddsCalc really free?", a: "Yes, with no premium tier or trials to nag you about. All probability and odds tools work fully, offline, forever — the page costs nothing to run once loaded." },
+    { q: "How private is OddsCalc?", a: "As private as a web tool can be: probability and odds processing never leaves your browser, there is no analytics on your inputs, and closing the tab erases everything." },
   ],
   zh: [
-    {
-      q: "这个工具免费吗?",
-      a: "完全免费 — 无需注册、没有订阅、无每日限额,输出不带水印。",
-    },
-    {
-      q: "我的数据会传到服务器吗?",
-      a: "不会。工具完全在浏览器里用 JavaScript 运行,输入的文件和内容不会发送到任何服务器;页面加载后断网也能用。",
-    },
-    {
-      q: "支持哪些浏览器?",
-      a: "所有现代浏览器 — Chrome、Firefox、Safari、Edge,桌面和移动端通用,无需安装插件。",
-    },
+    { q: "OddsCalc和其他工具站有什么不同?", a: "OddsCalc专注概率与赔率,并且零摩擦:无账号、无上传、无广告打扰 — 每个工具完全在你的设备上运行。" },
+    { q: "OddsCalc真的免费吗?", a: "真的,没有高级版也没有试用骚扰。所有概率与赔率工具完整可用、离线可用、永久可用 — 页面加载后运行零成本。" },
+    { q: "隐私性如何?", a: "能做到的极致:概率与赔率处理从不离开浏览器,输入不做分析统计,关掉标签页一切清空。" },
   ],
   ja: [
-    {
-      q: "このツールは無料ですか?",
-      a: "完全無料です。登録・課金・回数制限はなく、出力にウォーターマークも入りません。",
-    },
-    {
-      q: "入力したデータは外部に送信されますか?",
-      a: "送信されません。すべてブラウザ内の JavaScript で処理されるため、入力・ファイルはサーバーに送られず、読み込み後はオフラインでも動作します。",
-    },
-    {
-      q: "対応ブラウザは?",
-      a: "Chrome / Firefox / Safari / Edge の最新版(デスクトップ・モバイル共通)。プラグインや拡張機能は不要です。",
-    },
+    { q: "OddsCalcは他のツールサイトと何が違う?", a: "OddsCalcはprobability and oddsに特化し、摩擦ゼロで提供します。アカウント不要・アップロード不要・広告なし — すべてのツールが端末上で完結します。" },
+    { q: "本当に無料ですか?", a: "はい。プレミアムプランも試用期間のしつこさもありません。probability and oddsツールは完全に機能し、オフラインで動き、永久に無料 — ページは読み込み後、実行コストゼロです。" },
+    { q: "プライバシーは?", a: "Web ツールとして可能な限り:probability and odds処理はブラウザから出ず、入力の分析もなく、タブを閉じればすべて消えます。" },
   ],
   es: [
-    {
-      q: "¿Esta herramienta es gratis?",
-      a: "Sí, totalmente gratis: sin registro, sin suscripción, sin límites diarios y sin marcas de agua.",
-    },
-    {
-      q: "¿Mis datos salen de mi dispositivo?",
-      a: "No. Todo se procesa con JavaScript en tu navegador; nada se envía a un servidor. Incluso funciona sin conexión una vez cargada la página.",
-    },
-    {
-      q: "¿En qué navegadores funciona?",
-      a: "Cualquier navegador moderno: Chrome, Firefox, Safari y Edge, en escritorio y móvil. Sin plugins ni extensiones.",
-    },
+    { q: "¿Qué diferencia a OddsCalc de otras webs de herramientas?", a: "OddsCalc se centra en probability and odds y lo hace sin fricción: sin cuentas, sin subidas, sin anuncios — cada herramienta funciona por completo en tu dispositivo." },
+    { q: "¿OddsCalc es gratis de verdad?", a: "Sí, sin plan premium ni pruebas que te persigan. Todas las herramientas de probability and odds funcionan completas, sin conexión y para siempre — la página no cuesta nada una vez cargada." },
+    { q: "¿Cómo de privada es OddsCalc?", a: "Todo lo posible para una web: el procesado de probability and odds nunca sale de tu navegador, no analiza tus datos de entrada y al cerrar la pestaña todo desaparece." },
   ],
   pt: [
-    {
-      q: "Esta ferramenta é gratuita?",
-      a: "Sim, totalmente gratuita — sem cadastro, sem assinatura, sem limites diários e sem marcas d'água.",
-    },
-    {
-      q: "Meus dados saem do dispositivo?",
-      a: "Não. A ferramenta roda inteiramente no seu navegador com JavaScript; nada é enviado a servidores e funciona até offline depois de carregada.",
-    },
-    {
-      q: "Quais navegadores são suportados?",
-      a: "Qualquer navegador moderno — Chrome, Firefox, Safari e Edge, no desktop e no celular. Nenhum plugin necessário.",
-    },
+    { q: "O que diferencia o OddsCalc de outros sites de ferramentas?", a: "O OddsCalc foca em probability and odds e faz isso sem atrito: sem contas, sem uploads, sem anúncios — cada ferramenta roda por completo no seu aparelho." },
+    { q: "O OddsCalc é grátis mesmo?", a: "Sim, sem plano premium nem trial insistente. Todas as ferramentas de probability and odds funcionam por completo, offline e para sempre — a página não custa nada depois de carregada." },
+    { q: "Qual o nível de privacidade?", a: "O máximo possível numa web: o processamento de probability and odds nunca sai do navegador, não há análise das suas entradas e fechar a aba apaga tudo." },
   ],
 };
 
